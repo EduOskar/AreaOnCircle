@@ -11,7 +11,6 @@ namespace AreaOnCircle
             bool allDone = false;
             Console.WriteLine("Hej och välkommen till mitt uträckningsprogram! ");
 
-            Console.WriteLine("");
 
             while (allDone == false)
             {
