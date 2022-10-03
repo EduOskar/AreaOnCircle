@@ -12,14 +12,14 @@ namespace AreaOnCircle
             Console.WriteLine("Hej och välkommen till mitt uträckningsprogram! ");
 
 
-            while (allDone == false)
+            while (allDone == false) //While-sats to make sure that u can stay in the menu unlesss u wanna exit it
             {
 
 
                 MyMenu();
 
-                int.TryParse(Console.ReadLine(), out i);
-                switch (i)
+                int.TryParse(Console.ReadLine(), out i); 
+                switch (i) //menu for program
                 {
                     case 1:
                         Circle Circle1 = new Circle(5);
@@ -57,7 +57,7 @@ namespace AreaOnCircle
                       Console.ReadKey();
         } 
 
-        static void MyMenu() 
+        static void MyMenu()  //Metod to print out menu
         {
             Console.WriteLine("\nRäkna ut arean av en circkel tryck 1: ");
             Console.WriteLine("Räkna ut omkretsen av en cirkel tryck 2: ");
